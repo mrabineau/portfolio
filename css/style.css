@@ -1,0 +1,21 @@
+#main {
+  background-color: #FACADE;
+}
+
+#dom {
+  font-family: 'Nosifer', cursive;
+}
+
+#sub {
+  font-family: 'Bubbler One', sans-serif;
+}
+
+.button {
+  font-family: 'Bubbler One', sans-serif;
+  color: #3EFFC2;
+}
+
+h2#scroll {
+  font-family: 'Nosifer', cursive;
+  color: #3EFFC2;
+}

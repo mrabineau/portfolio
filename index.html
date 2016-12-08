@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="Portfolio">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Mel Rabineau - Portfolio</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.14/angular-ui-router.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- css frameworks -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/base-min.css">
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Bungee|Bungee+Shade|Fascinate+Inline|Holtwood+One+SC|Londrina+Shadow|Nosifer|Rammetto+One" rel="stylesheet">
+</head>
+<body ng-controller="HomeController as home">
+<div ui-view>
+<section id="main" class="hero is-success is-fullheight">
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 id="dom" class="title">
+        Mel Rabineau
+      </h1>
+      <h2 id="sub" class="subtitle">
+      <strong> Not Your Avarage Nerd </strong>
+      </h2>
+        <nav>
+          <a class="button is-large" ui-sref="home">About</a>
+        </nav>
+<!--       <h2 id="scroll"> SCROLL ME </h2>
+ -->    </div>
+  </div>
+<!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <nav class="tabs is-boxed is-fullwidth">
+      <div class="container">
+      </div>
+    </nav>
+  </div>
+</section>
+</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src='/js/app.js'></script>
+<script src="/js/main.js"></script>
+<script src="/js/controllers/Controllers.js"></script>
+</body>
+</html>
