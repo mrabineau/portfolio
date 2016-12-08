@@ -17,6 +17,23 @@
 <body ng-controller="HomeController as home">
 <div ui-view>
 <section id="main" class="hero is-success is-fullheight">
+<div class="hero-head">
+    <header class="nav">
+      <div class="container">
+        <div class="nav-right nav-menu">
+          <a class="nav-item is-active">
+            Welcome
+          </a>
+          <a class="nav-item" ui-sref="home">
+            About
+          </a>
+          <a class="nav-item" ui-sref="projects">
+            Projects
+          </a>
+        </div>
+      </div>
+    </header>
+  </div>
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered">

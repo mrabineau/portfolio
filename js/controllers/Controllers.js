@@ -9,10 +9,6 @@ HomeController.$inject=[]
 ProjectController.$inject =[]
 
 function HomeController () {
-  var hc = this
-
-  hc.popup ={text: "SCROLL ME",
-             hidden: true}
 
 }
 

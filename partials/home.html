@@ -1,7 +1,7 @@
   <link rel="stylesheet" href="css/home.css">
 
 
-<section id="welcome" class="hero is-success is-fullheight">
+<section id="welcome" class="hero is-success is-fullheight" ng-controller="HomeController as home">
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered is-8">
@@ -9,17 +9,15 @@
         <div class="tile is-parent">
         <article id="block" class="tile is-child notification is-danger">
           <p id="about" class="title">About The Programmer</p>
-          <p class="subtitle">Yours Truly</p>
-          <div id="text"><p>
-          var this.mel = info {
-            location: Hollywood, CA,
-            age: 24,
-            gender: null,
-            capabilities = ['HTML/CSS', 'Javascript/jQuery' 'Ruby on Rails', 'MEAN Stack']
-          }
-          </p></div>
-          <figure class="image is-4by3">
-            <img id="image" src="http://placehold.it/640x480">
+          <p id="sub" class="subtitle">**~Yours Truly~**</p>
+          <div id="text" class="items is-pulled-right"><p id="innertext"> <strong> var this.mel = { <br>
+            location: Hollywood, CA, <br>
+            age: 24, <br>
+            gender: null, <br>
+            capabilities: ['HTML/CSS', 'Javascript/jQuery' 'Ruby on Rails', 'MEAN Stack']}
+          </strong> </p></div>
+          <figure class="items image is-3by2">
+            <img id="image" src="/images/websitefoto.jpeg">
           <a class="button is-large is-danger" ui-sref="projects">See Projects</a>
           </figure>
         </article>

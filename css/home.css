@@ -10,13 +10,35 @@
 
 #about {
   font-family: 'Nosifer', cursive;
+  font-size: 50px;
+}
+
+#sub {
+  font-family: 'Londrina Shadow', cursive;
+  color: black;
 }
 
 #text {
+  width: 53%;
+  align-items: left;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 30px;
+  color: black;
+  margin-left: 150px;
+}
 
+#innertext {
+  width: 80%;
+  margin-right: 130px;
+  letter-spacing: 2px;
+}
+
+.items {
+  margin-top: 200px;
 }
 
 #image {
   height: 50%;
   width: 50%;
+  transform: rotate(90deg);
 }
