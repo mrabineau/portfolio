@@ -2,6 +2,23 @@
 
 
 <section id="welcome" class="hero is-success is-fullheight" ng-controller="HomeController as home">
+<div class="hero-head">
+    <header class="nav">
+      <div class="container">
+        <div class="nav-right nav-menu">
+          <a class="nav-item" ui-sref="/">
+            Welcome
+          </a>
+          <a class="nav-item is-active">
+            About
+          </a>
+          <a class="nav-item" ui-sref="projects">
+            Projects
+          </a>
+        </div>
+      </div>
+    </header>
+  </div>
   <!-- Hero content: will be in the middle -->
   <div class="hero-body">
     <div class="container has-text-centered is-8">
@@ -14,7 +31,7 @@
             location: Hollywood, CA, <br>
             age: 24, <br>
             gender: null, <br>
-            capabilities: ['HTML/CSS', 'Javascript/jQuery' 'Ruby on Rails', 'MEAN Stack']}
+            capabilities: [{'HTML/CSS', 'Javascript/jQuery' 'Ruby on Rails', 'MEAN Stack'}]}
           </strong> </p></div>
           <figure class="items image is-3by2">
             <img id="image" src="/images/websitefoto.jpeg">

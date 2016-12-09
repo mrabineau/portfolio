@@ -11,6 +11,7 @@
       $stateProvider
       .state('/', {
           url: '/',
+          controller: "IndexController as index",
           templateUrl: "index.html"
         })
         .state('home', {
