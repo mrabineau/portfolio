@@ -9,10 +9,10 @@
       $urlRouterProvider.otherwise('/')
 
       $stateProvider
-      .state('/', {
-          url: '/',
+      .state('index', {
+          url: '/index',
           controller: "IndexController as index",
-          templateUrl: "index.html"
+          templateUrl: "partials/landing.html"
         })
         .state('home', {
           url: '/home',
@@ -24,6 +24,6 @@
           controller: "ProjectController as projects",
           templateUrl: "partials/project.html"
         })
+          $urlRouterProvider.otherwise("/index");
       })
-
 })()

@@ -7,58 +7,58 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.14/angular-ui-router.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/project.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/landing.css">
+
   <!-- css frameworks -->
 <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
- -->  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.css">
+ -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/base-min.css">
   <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Bungee|Bungee+Shade|Fascinate+Inline|Holtwood+One+SC|Londrina+Shadow|Nosifer|Rammetto+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Space+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Bungee|Bungee+Shade|Fascinate+Inline|Holtwood+One+SC|Londrina+Shadow|Nosifer|Rammetto+One|Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Space+Mono" rel="stylesheet">
+
+
 </head>
-<body ng-controller="HomeController as home">
-<div ui-view>
-<section id="main" class="hero is-success is-fullheight">
-<div class="hero-head">
-    <header class="nav">
-      <div class="container">
-        <div class="nav-right nav-menu">
-          <a class="nav-item is-active">
-            Welcome
-          </a>
-          <a class="nav-item" ui-sref="home">
-            About
-          </a>
-          <a class="nav-item" ui-sref="projects">
-            Projects
-          </a>
+  <body id="main">
+      <section id="main" class="hero is-success is-fullheight">
+      <div class="hero-head">
+          <header class="nav">
+            <div class="container">
+              <div class="nav-right nav-menu">
+                <a class="nav-item" ui-sref="index">
+                  Welcome
+                </a>
+                <a class="nav-item" ui-sref="home">
+                  About
+                </a>
+                <a class="nav-item" ui-sref="projects">
+                  Projects
+                </a>
+              </div>
+            </div>
+          </header>
+          <div ui-view></div>
         </div>
-      </div>
-    </header>
-  </div>
+       </section>
   <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h1 id="dom" class="title">
-        Mel Rabineau
-      </h1>
-      <h2 id="sub" class="subtitle">
-      <strong> Not Your Avarage Nerd </strong>
-      </h2>
-        <nav>
-          <a class="button is-large" ui-sref="home">About</a>
-        </nav>
-<!--       <h2 id="scroll"> SCROLL ME </h2>
- -->    </div>
-  </div>
+
+    <section>
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+        </div>
+      </nav>
+    </div>
+  </section>
+  </body>
 <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot">
-    <nav class="tabs is-boxed is-fullwidth">
-      <div class="container">
-      </div>
-    </nav>
-  </div>
-</section>
-</div>
+
 
 
 
@@ -66,8 +66,13 @@
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
  --><script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/project.js"></script>
 <script src='/js/app.js'></script>
 <script src="/js/main.js"></script>
-<script src="/js/controllers/Controllers.js"></script>
+<script src="/js/home.js"></script>
+<script src="/js/project.js"></script>
+<script src="/js/controllers/HomeController.js"></script>
+<script src="/js/controllers/IndexController.js"></script>
+<script src="/js/controllers/ProjectController.js"></script>
 </body>
 </html>

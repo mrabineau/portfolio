@@ -2,20 +2,34 @@
   background-color: #FACADE;
 }
 
-#dom {
-  font-family: 'Nosifer', cursive;
+@keyframes glowing {
+  0% { background-color: #F47983; box-shadow: 0 0 3px #F47983; }
+  50% { background-color: #19B5FE; box-shadow: 0 0 10px #19B5FE; }
+  100% { background-color: #F47983; box-shadow: 0 0 3px #F47983; }
 }
 
-#sub {
-  font-family: 'Bubbler One', sans-serif;
+
+#dom {
+  font-family: 'Nosifer', cursive;
+  font-size: 60px;
+  color: #F47983;
+  font-weight: bold;
+
+
+}
+
+
+strong {
+  font-family: 'Space Mono', monospace;
+  color: #19B5FE;
+
 }
 
 .button {
-  font-family: 'Bubbler One', sans-serif;
-  color: #3EFFC2;
+  font-family: 'Space Mono', monospace;
+  animation: glowing 4000ms infinite;
+}
 }
 
-h2#scroll {
-  font-family: 'Nosifer', cursive;
-  color: #3EFFC2;
-}
+
+
