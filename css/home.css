@@ -1,11 +1,13 @@
 
 #welcome {
   background-image: url(http://eskipaper.com/images/diamond-wallpaper-11.jpg);
-/*  height: 100vh;
-  width: 100vw;*/
+  background-size: 100%;
   display: flex;
   text-align: center;
+  height: 100vh;
+  width: 100vw;
 }
+
 
 /*#block {
   height: 50%;
@@ -48,6 +50,18 @@
   0% { background-color: #ECF0F1; box-shadow: 0 0 3px #ECF0F1; }
   50% { background-color: #19B5FE; box-shadow: 0 0 40px #19B5FE; }
   100% { background-color: #ECF0F1; box-shadow: 0 0 3px #ECF0F1; }
+}
+
+
+@media screen and (max-width: 720px) {
+    #welcome {
+      background-image: url(http://eskipaper.com/images/diamond-wallpaper-11.jpg);
+      background-size: 100%;
+      display: flex;
+      text-align: center;
+      height: 100vh;
+      width: 100vw;
+    }
 }
 
 
