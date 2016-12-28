@@ -12,7 +12,7 @@
 #dom {
   font-family: 'Nosifer', cursive;
   font-size: 60px;
-  color: #F47983;
+  color: white;
   font-weight: bold;
 
 
@@ -29,7 +29,12 @@ strong {
   font-family: 'Space Mono', monospace;
   animation: glowing 4000ms infinite;
 }
-}
 
+@media screen and (max-width: 720px) {
+  #main {
+    max-width: 100%;
+  }
+
+}
 
 
