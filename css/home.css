@@ -24,11 +24,11 @@
 }
 
 #aboutText {
-  font-family: 'Nosifer', cursive;
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 33px;
+  font-size: 20px;
   height: 30%;
-  width: 80%;
+  width: 40%;
   /*margin-top: 5%;*/
   margin-left: 10%;
   text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
