@@ -2,10 +2,10 @@
   background-color: #FACADE;
 }
 
-@keyframes glowing {
-  0% { background-color: #F47983; box-shadow: 0 0 3px #F47983; }
-  50% { background-color: #19B5FE; box-shadow: 0 0 10px #19B5FE; }
-  100% { background-color: #F47983; box-shadow: 0 0 3px #F47983; }
+@keyframes glowingab {
+  0% { background-color: white; box-shadow: 0 0 20px white; }
+  50% { background-color: #BFBFBF; box-shadow: 0 0 40px white; }
+  100% { background-color: white; box-shadow: 0 0 20px white; }
 }
 
 
@@ -25,9 +25,16 @@ strong {
 
 }
 
-.button {
+/*.button {
   font-family: 'Space Mono', monospace;
   animation: glowing 4000ms infinite;
+}
+*/
+#ab {
+  font-family: 'Space Mono', monospace;
+  animation: glowingab 4000ms infinite;
+  color: #FACADE;
+  background-color: dodgerblue;
 }
 
 @media screen and (max-width: 720px) {
