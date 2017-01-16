@@ -1,7 +1,7 @@
 (function (){
   "use strict";
 
-  angular.module("Portfolio", ['ui.router'])
+  angular.module("Portfolio", ['ui.router', 'ui.bootstrap'])
 
     .config(function ($stateProvider, $urlRouterProvider) {
 

@@ -24,18 +24,39 @@
 }
 
 #aboutText {
-  font-family: 'Nosifer', cursive;
-  color: white;
-  font-size: 33px;
-  height: 30%;
-  width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  color: #FACADE;
+  font-size: 30px;
+  height: 25%;
+  width: 50%;
   /*margin-top: 5%;*/
   margin-left: 10%;
   text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   border: 5px solid #FACADE;
   padding: 10px;
   letter-spacing: 3px;
+  float: left;
 
+}
+
+#image {
+  width: 30%;
+  height: 40%;
+  transform: rotate(90deg);
+  margin-top: 5%;
+  animation: glowing 6000ms infinite;
+}
+
+#btn {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FACADE;
+  color: white;
+}
+
+#btn2 {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FACADE;
+  color: white;
 }
 
 #sub {
@@ -85,7 +106,6 @@
     align-self: center;
     margin-top: 4%;
     margin-bottom: 50%;
-    animation: glowing 4000ms infinite;
 }
 }
 
