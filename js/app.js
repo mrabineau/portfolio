@@ -1,12 +1,12 @@
 (function (){
   "use strict";
 
-  angular.module("Portfolio", ['ui.router', 'ui.bootstrap'])
+  angular.module("Portfolio", ['ui.router'])
 
     .config(function ($stateProvider, $urlRouterProvider) {
 
 
-      $urlRouterProvider.otherwise('/')
+      $urlRouterProvider.otherwise('/index')
 
       $stateProvider
       .state('index', {
@@ -24,6 +24,6 @@
           controller: "ProjectController as projects",
           templateUrl: "partials/project.html"
         })
-          $urlRouterProvider.otherwise("/index");
+          // $urlRouterProvider.otherwise("/index");
       })
 })()
