@@ -6,6 +6,11 @@ h1.pro {
   font-family: 'Holtwood One SC', serif;
 }
 
+.subhead {
+  font-size: 30px;
+
+}
+
 #freelance {
   background-image: url(http://www.sixpacrecycle.com/wp-content/uploads/2014/06/cans.png);
   background-size: 100%;
@@ -50,3 +55,5 @@ h1.pro {
   background-image: url(http://static1.uk.businessinsider.com/image/55a93369dd0895f04a8b45c6-1200/the-worms-glowing-light-helps-them-attract-their-food--other-insects.jpg);
   background-size: 100%;
 }
+
+
