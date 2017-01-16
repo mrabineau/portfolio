@@ -25,12 +25,12 @@
 
 #aboutText {
   font-family: 'Montserrat', sans-serif;
-  color: #FACADE;
-  font-size: 30px;
+  color: white;
+  font-size: 35px;
   height: 25%;
-  width: 50%;
+  width: 60%;
   /*margin-top: 5%;*/
-  margin-left: 10%;
+  margin-left: 5%;
   text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
   border: 5px solid #FACADE;
   padding: 10px;
