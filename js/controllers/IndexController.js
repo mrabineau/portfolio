@@ -6,8 +6,8 @@ angular.module("Portfolio")
 
 IndexController.$inject = []
 
-    // function IndexController () {
+    function IndexController () {
 
-    // }
+    }
 
 })()

@@ -7,9 +7,9 @@ angular.module("Portfolio")
 ProjectController.$inject =[]
 
 
-  // function ProjectController () {
+  function ProjectController () {
 
-  // }
+  }
 
 
 })()
