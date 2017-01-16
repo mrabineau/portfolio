@@ -2,3 +2,9 @@
   margin-top: 10%;
 }
 
+@media screen and (max-width: 720px) {
+ #landing {
+    margin-top: 30%;
+ }
+
+}

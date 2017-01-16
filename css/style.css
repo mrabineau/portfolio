@@ -48,7 +48,11 @@ strong {
 
 @media screen and (max-width: 720px) {
   #main {
-    max-width: 100%;
+    width: 100%;
+  }
+
+  #contact {
+    margin-left: 20%;
   }
 
 }
