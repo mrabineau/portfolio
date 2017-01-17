@@ -107,6 +107,10 @@
     margin-left: 30%;
   }
 
+  #image {
+    transform: rotate(90deg);
+  }
+
 }
 
 @media screen and (max-width: 720px) {
@@ -123,6 +127,8 @@
 
   #image {
     visibility: hidden;
+    width: 20%;
+    height: 30%;
   }
 
   #aboutText {
