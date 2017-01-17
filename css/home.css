@@ -92,10 +92,11 @@
   100% { background-color: #000000; box-shadow: 0 0 3px #000000; color: white; }
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1240px) {
   #aboutText {
     font-size: 20px;
     width: 50%;
+    color: #FACADE;
   }
 
   #content {
@@ -109,6 +110,8 @@
 
   #image {
     transform: rotate(90deg);
+   /* width: 20%;
+    height: 30%;*/
   }
 
 }
@@ -127,8 +130,7 @@
 
   #image {
     visibility: hidden;
-    width: 20%;
-    height: 30%;
+
   }
 
   #aboutText {
