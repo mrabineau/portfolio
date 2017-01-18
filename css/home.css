@@ -125,8 +125,8 @@
 
 @media screen and (max-width: 1000px) {
   #image {
-    transform: rotate(90deg);
-    margin-top: 40px;
+/*    transform: rotate(90deg);
+*/    margin-top: 40px;
   }
 
 
