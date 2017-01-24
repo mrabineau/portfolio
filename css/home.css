@@ -109,8 +109,8 @@
   }
 
   #image {
-    transform: none;
-    margin-top: 5px;
+    transform: rotate(90deg);
+    margin-top: 10px;
    /* width: 20%;
     height: 30%;*/
   }
@@ -120,12 +120,16 @@
 */
   }
 
+  #btn {
+    margin-bottom: 35px;
+  }
+
 
 }
 
 @media screen and (max-width: 1000px) {
   #image {
-    transform: none;
+    transform: rotate(90deg);
     margin-top: 40px;
   }
 
